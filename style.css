@@ -38,20 +38,17 @@
     max-width: 75px;
     margin-left: 280px;
     margin-top: 35px;
-
 }
 .hero-circle{
     width: 100%;
-    /* position: absolute; */
 }
 .microphone{
     margin: 0px auto;
     margin-top: -255px;
-    /* position: absolute; */
 }
 .podcast{
     background-color: #1A0B2E;
-    margin-top: -37px;
+    margin-top: -38px;
 }
 .podcast-container{
     max-width: 1200px;
@@ -66,13 +63,13 @@
 }
 .podcast-description{
     font-size: 1rem;
-    color: #FFFFFF;
+    color: #ffffff9d;
     text-align: center;
     font-weight: 100;
     margin-bottom: 80px;
 }
 .podcast-rate{
-    border-top: 1px solid rgba(255, 255, 255, 1);
+    border-top: 1px solid rgba(255, 255, 255, 0.355);
     padding: 80px 0px;
 }
 .podcast-rate-item{
@@ -88,6 +85,92 @@
     font-size: 1rem;
     font-weight: 100;
 }
+.techwave{
+    background-color: #230E3D;
+    padding: 120px 0px;
+}
+.techwave-conatiner{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.techwave-item{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+}
+.techwave-item img,h3,i{
+    margin-bottom: 16px;
+}
+.techwave-item h3{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.techwave-item p{
+    color: #ffffffa0;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 100;
+}
+.features{
+    padding: 120px 0px;
+    background-color: #1A0B2E;
+}
+.features-conatiner{
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+.features-title{
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.features-card{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.features-card-item{
+    max-width: 350px;
+
+}
+.features-card-item iframe{
+    width: 100%;
+    border-radius: 24px 24px 0px 0px;
+}
+.card-content{
+    padding: 24px;
+    background-color: #250D44;
+    border-radius: 0px 0px 24px 24px;
+}
+.card-item-title{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.card-item-description{
+    font-size: 1rem;
+    color: #ffffff81;
+    line-height: 24px;
+    margin-bottom: 12px;
+
+}
+.card-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.card-icon p{
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 576px) {
     header nav ul{
         display: none;
@@ -135,5 +218,23 @@
     }
     .podcast-container{
         padding: 5px;
+    }
+    .techwave{
+        margin-top: -5px;
+    }
+    .techwave-conatiner{
+        padding: 15px;
+    }
+    .techwave-title{
+        font-size: 2rem;
+    }
+    .techwave-quality{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features-title{
+        font-size: 2rem;
+    }
+    .features-card{
+        flex-direction: column;
     }
 }
