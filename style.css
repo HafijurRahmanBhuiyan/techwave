@@ -6,6 +6,20 @@
     font-weight: 400;
     font-style: normal;
   }
+@keyframes btn {
+    0%{
+        laft: 0px;
+    }
+    100%{
+        left:70px;
+    }
+}
+
+.banner-btn{
+    animation: btn 3s linear 0px infinite;
+}
+
+
   .nav-button{
     padding: 0px 20px;
   }
