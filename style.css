@@ -215,6 +215,33 @@
     border-radius: 50%;
     padding: 10px;
 }
+footer{
+    background-image: url('assets/footer-bg.png');
+    padding: 120px;
+}
+.footer-container{
+    max-width: 1360px;
+    margin: 0px auto;
+    text-align: center;
+}
+.social-link-card{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.social-link-item{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.social-platform-name,.copyright{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.49);
+}
 
 /* responsive design*/
 
@@ -297,4 +324,24 @@
     .meet-icon{
         justify-content: center;
     }
+    footer{
+        padding: 40px 20px;
+    }
+    .footer-container{
+        max-width: 400px;
+    }
+    .footer-logo{
+        font-size: 2.25rem;
+    }
+    .social-link-card{
+        max-width: 255px;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
+        row-gap: 7px;
+        column-gap: 5px;
+        text-align: left;
+    }
+
 }
