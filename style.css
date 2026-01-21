@@ -6,6 +6,12 @@
     font-weight: 400;
     font-style: normal;
   }
+  .nav-button{
+    padding: 0px 20px;
+  }
+.nav-button i{
+    margin-top: 19px;
+}
 
 .hamburger-image{
     display: none;
@@ -74,11 +80,16 @@
 }
 .podcast-rate-item{
     text-align: center;
+    
 }
 .podcast-rate-item h2{
     color: #00FF88;
     font-size: 3rem;
     font-weight: black;
+    margin-top: -15px;
+}
+.podcast-rate-item i{
+    color: #00FF88;
 }
 .podcast-rate-item p{
     color: #FFFFFF;
@@ -343,5 +354,8 @@ footer{
         column-gap: 5px;
         text-align: left;
     }
+    .meet-container{
+        padding-bottom: 40px;
+    }  
 
 }
